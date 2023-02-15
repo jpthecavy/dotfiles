@@ -7,7 +7,7 @@
 	# log author
 	la = log --oneline --pretty=format:'%C(auto)%h %C(brightcyan)%cn %Creset%s %C(auto)%d'
 	# log author & datetime
-    lad = log --oneline --pretty=format:'%C(auto)%h %C(brightcyan)%cn %C(brightgreen)%cd %Creset%s %C(auto)%d' --date=format:'%Y/%m/%d %H:%M:%S'
+	lad = log --oneline --pretty=format:'%C(auto)%h %C(brightcyan)%cn %C(brightgreen)%cd %Creset%s %C(auto)%d' --date=format:'%Y/%m/%d %H:%M:%S'
 	b = branch
 	ba = branch -a
 	co = checkout
