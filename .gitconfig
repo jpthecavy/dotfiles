@@ -6,13 +6,14 @@
 	l = log --oneline
 	# log author
 	la = log --oneline --pretty=format:'%C(auto)%h %C(brightcyan)%cn %Creset%s %C(auto)%d'
+	# log datetime
+	ld = log --oneline --pretty=format:'%C(auto)%h %C(brightgreen)%cd %Creset%s %C(auto)%d' --date=format:'%Y/%m/%d %H:%M:%S'
 	# log author & datetime
 	lad = log --oneline --pretty=format:'%C(auto)%h %C(brightcyan)%cn %C(brightgreen)%cd %Creset%s %C(auto)%d' --date=format:'%Y/%m/%d %H:%M:%S'
 	b = branch
 	ba = branch -a
 	co = checkout
 	cm = commit
-	st = status
 	sw = switch
 [core]
 	quotepath = false
